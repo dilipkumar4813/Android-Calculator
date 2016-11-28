@@ -76,7 +76,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:src="@drawable/divide" />
+                android:src="@drawable/divide"
+                android:layout_marginRight="10dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -121,7 +122,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:background="@android:color/background_light"
-                app:srcCompat="@drawable/multiply" />
+                app:srcCompat="@drawable/multiply"
+                android:layout_marginRight="10dp" />
 
         </LinearLayout>
 
@@ -167,7 +169,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:background="@android:color/background_light"
-                app:srcCompat="@drawable/subtract" />
+                app:srcCompat="@drawable/subtract"
+                android:layout_marginRight="10dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -205,7 +208,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:background="@android:color/background_light"
-                app:srcCompat="@drawable/add" />
+                app:srcCompat="@drawable/add"
+                android:layout_marginRight="10dp" />
         </LinearLayout>
 
     </LinearLayout>
