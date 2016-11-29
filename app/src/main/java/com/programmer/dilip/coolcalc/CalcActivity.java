@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -59,16 +60,16 @@ public class CalcActivity extends AppCompatActivity implements View.OnClickListe
         ImageView imageEquals = (ImageView) findViewById(R.id.image_equals);
         imageEquals.setOnClickListener(this);
 
-        ImageView imageAddition = (ImageView) findViewById(R.id.image_add);
+        ImageButton imageAddition = (ImageButton) findViewById(R.id.image_add);
         imageAddition.setOnClickListener(this);
 
-        ImageView imageSubtraction = (ImageView) findViewById(R.id.image_substract);
+        ImageButton imageSubtraction = (ImageButton) findViewById(R.id.image_substract);
         imageSubtraction.setOnClickListener(this);
 
-        ImageView imageMultiply = (ImageView) findViewById(R.id.image_multiply);
+        ImageButton imageMultiply = (ImageButton) findViewById(R.id.image_multiply);
         imageMultiply.setOnClickListener(this);
 
-        ImageView imageModulus = (ImageView) findViewById(R.id.image_modulus);
+        ImageButton imageModulus = (ImageButton) findViewById(R.id.image_modulus);
         imageModulus.setOnClickListener(this);
 
         Button buttonClear = (Button) findViewById(R.id.button_clear);

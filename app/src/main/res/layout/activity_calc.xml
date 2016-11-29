@@ -70,13 +70,14 @@
                 android:text="9"
                 android:textSize="30sp" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/image_modulus"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:src="@drawable/divide"
+                android:background="@android:color/background_light"
                 android:layout_marginRight="10dp" />
         </LinearLayout>
 
@@ -115,10 +116,10 @@
                 android:text="6"
                 android:textSize="30sp" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/image_multiply"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:background="@android:color/background_light"
@@ -162,10 +163,10 @@
                 android:text="3"
                 android:textSize="30sp" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/image_substract"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:background="@android:color/background_light"
@@ -201,10 +202,10 @@
                 android:textSize="30sp"
                 android:layout_width="92dp" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/image_add"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:background="@android:color/background_light"
