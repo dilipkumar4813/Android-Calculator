@@ -23,7 +23,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/text_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
@@ -41,7 +41,7 @@
             android:weightSum="4">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -51,7 +51,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button_8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -61,7 +61,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -71,7 +71,7 @@
                 android:textSize="30sp" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/image_modulus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -86,7 +86,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -96,7 +96,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/button_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -106,7 +106,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/button_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -116,7 +116,7 @@
                 android:textSize="30sp" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/image_multiply"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -133,7 +133,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/button_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -143,7 +143,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/button_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -153,7 +153,7 @@
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/button_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -163,7 +163,7 @@
                 android:textSize="30sp" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/image_substract"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -179,7 +179,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/button_clear"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="2"
@@ -192,7 +192,7 @@
                 android:elevation="4dp" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/button_0"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
@@ -202,7 +202,7 @@
                 android:layout_width="92dp" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/image_add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -220,6 +220,6 @@
         app:srcCompat="@drawable/equal"
         android:layout_alignParentRight="true"
         android:layout_marginTop="115dp"
-        android:id="@+id/imageView5" />
+        android:id="@+id/image_equals" />
 
 </RelativeLayout>
