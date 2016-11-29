@@ -164,7 +164,7 @@ public class CalcActivity extends AppCompatActivity implements View.OnClickListe
             }
         } else {
             leftValueStr = runningNumber;
-            textResult.setText(leftValueStr);
+            runningNumber = "";
         }
 
         currentOperations = operation;
